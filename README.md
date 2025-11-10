@@ -1,2 +1,2 @@
 # ICU-Sepsis-Risk-Prediction-System
-A reproducible pipeline that ingests ICU vital signs and labs, trains interpretable machine-learning models to predict sepsis risk up to 48 hours in advance, and provides realtime inference, explainability, and evaluation dashboards.
+A comprehensive real-time sepsis risk prediction system designed for Intensive Care Unit (ICU) environments. This application uses machine learning models combined with clinical criteria to assess sepsis risk in patients based on vital signs and laboratory values.
