@@ -127,8 +127,8 @@ jobs:
     - name: Run basic import tests
       run: |
         python -c "import streamlit; import pandas; import numpy; import plotly"
-        python -c "from models.sepsis_model import SepsisPredictor"
-        python -c "from utils.data_processing import validate_patient_data"
+        python -c "from sepsis_core.models.sepsis_model import SepsisPredictor"
+        python -c "from sepsis_core.utils.data_processing import validate_patient_data"
         echo "✅ All imports successful"
     
     - name: Check Streamlit app syntax

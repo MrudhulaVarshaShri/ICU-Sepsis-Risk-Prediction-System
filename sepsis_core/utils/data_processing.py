@@ -262,3 +262,16 @@ def detect_trends(patient_history: pd.DataFrame, window_size: int = 3) -> Dict:
                     alerts.append(f"🌡️ High fever detected ({values[-1]:.1f}°C)")
     
     return {'trends': trends, 'alerts': alerts}
+
+def calculate_risk_score(data):
+    # temporary logic
+    return 0.5
+
+def get_risk_category(score):
+    if score > 0.7:
+        return "High Risk"
+    elif score > 0.4:
+        return "Medium Risk"
+    else:
+        return "Low Risk"
+
